@@ -1,0 +1,6 @@
+<div class="search--pokemon-componet">
+  <input [(ngModel)]="name" #IamAnId placeholder="Add a pokemon"/>
+  <input type="button" value="change" (click)="changePokemon(name)"/>
+  <p>The name in the input box is {{name}}<p>
+  <p>{{favorite}}</p>
+</div>

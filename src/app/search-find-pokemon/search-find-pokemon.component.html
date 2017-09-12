@@ -1,0 +1,13 @@
+<div class="search-and-identify-pokemon-component">
+<app-search-pokemon></app-search-pokemon>
+<!--
+  <div class="back-next-control-component">
+	  <button>Previous</button> | <button>Next</button>
+  </div>
+-->
+  <ul class="list-pokemon-component">
+	  <li *ngFor="let d of data">
+		  <span>{{d.name}}</span>
+	  </li>
+  </ul>
+</div>
